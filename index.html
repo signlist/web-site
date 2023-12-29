@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>무직전생</title>
+    <title>Main</title>
     <meta charset="utf-8">
+    <style>
+        a {text-decoration: none;}
+        #title {font-size: 60px; margin-top: 20px; margin-bottom: 100px;}
+        .rudeus {color: #E07B23}
+        .roxy {color:blue;}
+        .eris {color:red;}
+        .sylphiette {color:green;}
+        .dc{font-size: 30px;}
+        .video {
+            width: 590px;
+            position: absolute;
+            left: 50%; right: 50%;
+            margin-left: -298.5px;
+            background-color: #FF1E1E;
+            border: 7px solid black;
+        }
+        iframe {margin:0 auto; display: block;}
+    </style>
 </head>
 <body>
-    <h1>무직전생</h1>
+    <h1 id="title"><a href="index.html" style="color: black;" title="Home">무직전생</a></h1>
     <ol>
-        <li>루데우스</li>
-        <li><a href="roxy.html" target="" title="록시 미굴디아">록시</a></li>
-        <li><a href="eris.html" target="" title="에리스 보레아스 그레이랫">에리스</a></li>
-        <li>실피</li>
+        <li><a class="rudeus" href="rudeus.html" title="루데우스 그레이랫">루데우스</a></li>
+        <li><a class="roxy" href="roxy.html" target="" title="록시 미굴디아">록시</a></li>
+        <li><a class="eris" href="eris.html" target="" title="에리스 보레아스 그레이랫">에리스</a></li>
+        <li><a class="sylphiette" href="">실피</a></li>
     </ol>
-    <h2><a href="https://gall.dcinside.com/mgallery/board/lists/?id=jn1359" target="_blank" title="디시인사이드 무직전생 마이너갤러리">무직전생 갤러리</a></h2>
-    <br>
-    <h3>Video</h3>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/AiDHg5aHYE8?si=AMhSQ2e8YKSHcnEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <hr>
+    <p class="dc"><a href="https://gall.dcinside.com/mgallery/board/lists/?id=jn1359" target="_blank" title="디시인사이드 무직전생 마이너갤러리">무직전생 갤러리</a></p>
+    <h3 style="margin-top: 100px; font-size: 30px; text-align: center;">Video</h3>
+    <div class="video">
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/AiDHg5aHYE8?si=AMhSQ2e8YKSHcnEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    </div>
 </body>
 </html>
